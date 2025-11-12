@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => GetUserToDoCubit(),
-      child: MaterialApp(home: const ToDoScreen()),
+      child: MaterialApp(home: const ToDoScreen() , debugShowCheckedModeBanner: false,),
     );
   }
 }
