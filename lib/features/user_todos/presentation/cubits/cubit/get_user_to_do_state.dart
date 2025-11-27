@@ -8,7 +8,7 @@ final class GetUserToDoInitial extends GetUserToDoState {}
 final class GetUserToDoLoading extends GetUserToDoState {}
 
 final class GetUserToDoSuccess extends GetUserToDoState {
-  final List <ToDoEntity> toDoList;
+  final List <TodoModel> toDoList;
 
   GetUserToDoSuccess({required this.toDoList});
 }
